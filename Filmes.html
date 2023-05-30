@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTA FILMES</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1.title {
+            background-color: rgb(0, 0, 0);
+            color: beige;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        form input {
+            padding: 5px;
+            border: none;
+            outline: none;
+            width: 80%; 
+            max-width: 200px; 
+        }
+
+
+        form button {
+            padding: 5px 11px;
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: rgba(73, 101, 228, 0.959);
+        }
+
+        div.lista {
+            margin-top: 10px;
+            display: flex;
+            padding: 3px;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: white;
+           
+        }
+
+        div.item {
+            text-align: center;
+            padding: 10px;
+            width: 200px;
+            border-radius: 10px;
+            margin: 13px;
+            text-decoration: none;
+        }
+
+        div.item:hover {
+            background-color: rgb(129, 133, 138);
+            cursor: pointer;
+        }
+
+        div.item img {
+            width: 100%;
+        }
+
+        .item a {
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Filmes</h1>
+    <form>
+        <input name="pesquisa" placeholder="Buscar"/>
+        <button>Pesquisar</button>
+    </form>
+    <div class="lista">
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-115362/" class="item" target="_blank">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyJejoCgNZqrxTbO126kLbkFF5lTVkY1snt34U3mehqMLQ9Wj6"/>
+            <h2>Batman o Cavaleiro das trevas</h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-192186/" class="item" target="_blank">
+                <img src="https://br.web.img3.acsta.net/c_310_420/pictures/14/01/07/21/16/425460.jpg">
+            <h2> O Espetacular Homem Aranha 2 - A Ameaça De Electro</h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-250861/" class="item" target="_blank">
+                <img src="https://musicart.xboxlive.com/7/261e5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080">
+            <h2>John Wick: Chapter 3 - Parabellum</h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-274387/" class="item" target="_blank">
+                <img src="https://br.web.img3.acsta.net/pictures/22/12/05/09/07/2007563.jpg">
+            <h2> John Wick 4: Baba Yaga </h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-186636/" class="item" target="_blank">
+                <img src="https://blog.invictus.com.br/wp-content/uploads/2022/07/TopGun-BlogINVICTUS-07.jpg">
+            <h2>Top Gun: Maverick</h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-182873/" class="item" target="_blank">
+                <img src="https://br.web.img2.acsta.net/pictures/14/08/01/19/10/403236.jpg">
+            <h2>O Protetor</h2>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-132874/" class="item" target="_blank">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtonHNwXYiM3HzJMqRAR0nxZKDcEqtiojgQnZiwP9c66IeoMmX">
+            <h2>Batman: O Cavaleiro das Trevas Ressurge </h2>
+            </a>
+            
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-233998/" class="item" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXXSprQ3EcHdri6WDStFpLL1hweHjjENp1AQv3ZNGa5JCm8dn">
+            <h2>Homem-Aranha no Aranhaverso</h2>
+            </a>
+            
+        </div>
+
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-53096/" target="_blank" class="item">
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CD477B603119801E7C02ED789CE9B42368218C4D7ABF8723EAADC982082F6F66/scale?width=506&aspectRatio=2.00&format=jpeg">
+            <h2 id="filme9">Os Incríveis </h2>
+            </a>
+            
+        </div>
+        <div class="item">
+            <a href="https://www.adorocinema.com/filmes/filme-110189/" class="item" target="_blank">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSragvfjUTJ9I9tvh2ZiGg2Fq-DPJoxKWdxSWlwH48w_PWBShYg">
+                <h2 id="filme10">O Pequenino</h2>
+            </a>      
+        </div>
+    </div>
+
+    <script>
+        const titulofilme10 = document.getElementById('filme10');
+        if (titulofilme10.parentElement.tagName === 'A') {
+            titulofilme10.classList.add('link-adicionado');
+        }
+    </script>
+</body>
+</html>
